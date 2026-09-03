@@ -10,5 +10,17 @@
     "filenames": [
       "dg_AdditiveComp.mx"
     ]
+  },
+  {
+    "name": "dg_Align",
+    "description": "Aligns detected Front, Matte, or Reference bounds to Frame, Action Safe, or custom insets by DIGITAL GARDEN.",
+    "shader_type": "matchbox",
+    "required_matchbox_version": "2025.1.0",
+    "supports_action": true,
+    "supports_transition": false,
+    "supports_timeline": true,
+    "filenames": [
+      "dg_Align.mx"
+    ]
   }
 ]
