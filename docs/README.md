@@ -1,6 +1,6 @@
 # docs/
 
-- `manual/` — local-only Matchbox authoring manual for AI/agents (gitignored; not on GitHub)
-- Public API notes may be added here later if they contain no confidential source
+- `manual/` — **local-only** Matchbox authoring manual for AI/agents (`gitignore`; not on GitHub)
+- Start at `docs/manual/README.md` on this machine
 
-Create and edit the authoring manual under `docs/manual/` on this machine only.
+Do not commit `docs/manual/`.
