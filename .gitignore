@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# 開発ソース（公開は MX のみ）
+/shaders/
+
+# AI 向けマニュアル（ローカルのみ）
+/docs/manual/
+
+# 社内フリート・秘密類
+/private/
+
+# 移行元アーカイブ（参照のみ・公開禁止）
+/_old/
+
+# ビルド一時物
+*.log
+*.tmp
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# エディタ
+.idea/
+.vscode/
+*.swp
+*.swo
