@@ -1,2 +1,14 @@
 [
+  {
+    "name": "dg_AdditiveComp",
+    "description": "Additive difference composite with highpass HSV by DIGITAL GARDEN.",
+    "shader_type": "matchbox",
+    "required_matchbox_version": "2025.1.0",
+    "supports_action": false,
+    "supports_transition": false,
+    "supports_timeline": false,
+    "filenames": [
+      "dg_AdditiveComp.mx"
+    ]
+  }
 ]

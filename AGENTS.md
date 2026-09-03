@@ -73,9 +73,10 @@ dg-matchbox-shaders/
 ### 社内（ローカルのみ）
 
 - 方式: **各マシンへ SSH**（共有ストレージ非依存）
-- inventory / known_hosts / 認証は `private/fleet/`（Git 外）
-- 旧 `_old/script` は参考のみ。パスワード直書き・root 前提・known_hosts 削除は再現しない
+- 設計・CLI: `private/fleet/`（`DESIGN.md` / `SAFETY.md` / `bin/dg-matchbox-deploy`）
+- inventory / known_hosts / 認証は Git 外。パスワード直書き・root・known_hosts 削除は禁止
 - 推奨: `audit` → `plan` → パイロット → 全体 `install`（ロールバック可能）
+- エージェントは `install` / `rollback` をユーザー明示なしで実行しない
 
 ## エージェント向け制約
 
